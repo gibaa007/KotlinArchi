@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_padding">15dp</dimen>
+    <dimen name="main_padding_img">3dp</dimen>
+    <dimen name="edittext_height">40dp</dimen>
+    <dimen name="checkbox_margin">4dp</dimen>
+    <dimen name="bottombar_height">45dp</dimen>
+    <dimen name="header_height">220dp</dimen>
+    <dimen name="photo_height">200dp</dimen>
+    <dimen name="photo_height_double">360dp</dimen>
+    <dimen name="photo_height_portrait">560dp</dimen>
+    <dimen name="photo_height_half">90dp</dimen>
+    <dimen name="navigation_drawer_text_height">40dp</dimen>
+    <dimen name="Eden_Gardens_thumb">120dp</dimen>
+    <dimen name="Eden_Gardens_flag">30dp</dimen>
+    <dimen name="seperator">10dp</dimen>
+    <dimen name="sign_in_layout">300dp</dimen>
+    <dimen name="cover_height">160dp</dimen>
+
+    <dimen name="book_grid_height">240dp</dimen>
+    <dimen name="stampWidth">220dp</dimen>
+    <dimen name="stampHeight">180dp</dimen>
+    <dimen name="titleHeight">17sp</dimen>
+    <dimen name="nav_title_font_size">13sp</dimen>
+    <dimen name="profile_count_font_size">16sp</dimen>
+</resources>

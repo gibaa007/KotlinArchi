@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="main_padding">6dp</dimen>
+    <dimen name="edittext_height">30dp</dimen>
+    <dimen name="checkbox_margin">2dp</dimen>
+    <dimen name="bottombar_height">35dp</dimen>
+    <dimen name="header_height">150dp</dimen>
+    <dimen name="navigation_drawer_text_height">30dp</dimen>
+    <dimen name="Eden_Gardens_thumb">100dp</dimen>
+    <dimen name="Eden_Gardens_flag">25dp</dimen>
+    <dimen name="stampWidth">150dp</dimen>
+    <dimen name="stampHeight">125dp</dimen>
+    <dimen name="nav_title_font_size">12sp</dimen>
+    <dimen name="profile_count_font_size">12sp</dimen>
+</resources>

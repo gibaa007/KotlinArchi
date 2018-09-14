@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="45dp"
+    android:background="@drawable/team_prof">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/iv_userImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        app:actualImageScaleType="centerCrop"
+        app:actualImageUri="https://www.audi.com.au/dam/nemo/models/a8/a8/my-2018/1920-stage/1920x600_01_Stage_hero_neu.jpg"
+        app:roundAsCircle="true"
+        app:roundingBorderColor="@color/white"
+        app:roundingBorderWidth="5dp" />
+
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_userImage"
+        android:ellipsize="end"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="BASketball"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_name"
+        android:layout_marginRight="10dp"
+        android:background="@color/BurlyWood"
+        android:orientation="vertical"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="06"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="RANK"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@+id/iv_userImage"
+        android:ellipsize="end"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:text="KNOX"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_location"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:layout_toRightOf="@+id/iv_userImage"
+        android:ellipsize="end"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:text="Chester, Pennsylvania"
+        android:textColor="@color/Gray"
+        android:textSize="14sp" />
+
+</RelativeLayout>
